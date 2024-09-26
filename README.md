@@ -43,3 +43,14 @@ h1{
     color: blue;
 }
 ```
+Pipe karakter
+
+
+|Fejléc | Fejléc
+valami | valamik
+
+**Félövér**
+_dÖLT_
+![Valami](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/IkarusMoscow.JPG/1280px-IkarusMoscow.JPG)
+
+
