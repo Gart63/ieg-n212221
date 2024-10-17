@@ -34,3 +34,47 @@ p, li {
 }
 
 
+#keret {
+  margin: 0px auto;
+  padding: 20px;
+  background-color: rgba(234, 200, 150, 0.9);
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px black;
+  
+  
+}
+
+#kep1 {
+  height: 150px;
+  
+  
+  float: right;
+  
+}
+
+a {
+  
+}
+.img-thumbnail{
+	width:250px;
+	height:200px;
+}
+
+h1{
+  font-family: Verdana;
+color: blue;
+
+
+
+}
+h2 {
+  font-family: Verdana;
+  color:grey;
+}
+
+p, li {
+  
+  text-indent: 20px;
+}
+
+
