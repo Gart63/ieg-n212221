@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kutyák Világa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .carousel-item img {
+      filter: brightness(85%);
+    }
+    .carousel-caption h5 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+    .carousel-caption p {
+      font-size: 1.2rem;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 15px;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">🐾 Kutyák Világa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="iugen.html">Bemutatkozás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Kutyafajták.html">Kutyafajták</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Árak.html">Árak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide mt-3" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Blog_Hero_Food_Intolerances_Allergies_1920x800_5951ebe0-8094-4e86-b319-f7c174766db4_1200x1200.webp" class="d-block w-100" alt="Kutya 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Üdvözlünk a Kutyák Világában!</h5>
+          <p>Fedezd fel a legszebb és legjobb kutyafajtákat!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/finding-the-right-dog-breed.jpg" class="d-block w-100" alt="Kutya 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Találd meg a tökéletes társat!</h5>
+          <p>Kutyafajták széles választéka vár rád.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/images.jpg" class="d-block w-100" alt="Kutya 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ismerd meg az árainkat!</h5>
+          <p>Minőségi kutyák elérhető áron.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+ 
+  <footer class="text-center">
+    <p>&copy; 2024 Kutyák Világa - Minden jog fenntartva</p>
+  </footer>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
